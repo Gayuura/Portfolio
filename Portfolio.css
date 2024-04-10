@@ -1,0 +1,218 @@
+.navbar-brand {
+  margin-left: 30px;
+}
+.nav-item {
+  margin-right: 20px;
+}
+#arriere_plan {
+  background: url('Arriere_plan.png');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+}
+.text-box {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  background: rgba(255, 255, 255, 0.4);
+  color: rgb(0, 0, 0);
+  padding: 2%;
+  border-radius: 5.75vw;
+  max-width: 40%;
+}
+.titre_yacine {
+  font-size: 4vw;
+  text-align: center;
+  font-weight: bold; 
+  color: #070065;
+}
+.texte_etudiant {
+  font-size: 2vw;
+  text-align: center;
+  color: #070065;
+}
+.texte_stage {
+  font-size: 2vw;
+  font-style: italic; 
+  text-align: center;
+  color: #070065;
+}
+h2 {
+  color: #F16F6F;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 45px;
+  padding: 50px;
+}
+#apropos {
+  background-color: #0B3659;
+  color: #ffffff;
+  height: auto;
+  display: flex;
+}
+#competences,#langues,#contact {
+  background-color: #F0F0EF;
+  color: black;
+}
+#formations,#experiences{
+  background-color: white;
+}
+.titre {
+  font-style: italic;
+  font-family: 'Regular';
+  font-size: 40px;
+}
+.sous_titre{
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Regular';
+}
+.img-fluid {
+  border-radius: 213px;
+}
+.intro{
+  font-size: 25px;
+  font-family: 'Regular';
+  margin-top: 70px;
+  margin-bottom: 76px;
+  margin-left: auto;
+}
+.photo{
+  margin-top: 70px;
+  text-align: center;
+}
+.separateur{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.skill{
+  font-size: 42px;
+}
+.skill_desc{
+  font-size: 36px;
+}
+.fiche{
+  background-color: #F0F0EF;
+  color: #000000;
+  text-align: center;
+  border-radius: 58px;
+  padding: 40px;
+}
+.desktop-image{
+  margin-left: 35%;
+}
+.mobile-image {
+  display: none;
+  margin-left: 35%;
+}
+.img-drapeau{
+  border-radius: 34px;
+}
+.cercle_du_temps{
+  border-radius: 50%;
+  background-color: #FF9D9D;
+  width: 231px;
+  height: 220px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 36px;
+  font-family: 'regular';
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  font-size: 33px;
+  font-family: 'semi-bold';
+}
+h4{
+  font-size: 29px;
+  font-family: 'regular';
+}
+ul{
+  font-size: 25px;
+  font-family: 'regular';
+}
+.form-group{
+  width: 60%;
+  margin-left: 25%;
+}
+.btn{
+  margin-left: 60%;
+  margin-top: 47px;
+}
+.reseau{
+  width: 350px;
+  height: 80px;
+  border: 1px solid #000;
+  border-radius: 46px;
+  padding: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  font-family: Regular;
+  font-size: 25px;
+}
+.milieu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: #72493c;
+  font-size: 24px;
+  z-index: 9999;
+  transition: background-color 0.3s, color 0.3s;
+}
+.scroll-to-top:hover {
+  background-color: rgba(114, 73, 60, 1);
+  color: #000;
+}
+#twitter{
+  border-radius: 11px;
+}
+@media (max-width: 767px) {
+  .img-drapeau{
+    width: 150px;
+    height: 100px;
+  }
+  .skill{
+    font-size: 30px;
+  }
+  .skill_desc{
+    font-size: 25px;
+  }
+}
+@media (max-width: 870px) {
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: block;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-nav {
+    text-align: center;
+    max-width: none;
+    margin: auto;
+    display: block;
+  }
+}
+@media (max-width: 420px) {
+  .reseau{
+    font-size: 20px;
+  }
+}
