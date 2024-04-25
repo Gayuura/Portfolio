@@ -5,7 +5,7 @@
   margin-right: 20px;
 }
 #arriere_plan {
-  background: url('Arriere_plan.png');
+  background: url('docs/icones/Arriere_plan.png');
   background-size: cover;
   background-position: center center;
   height: 100vh;
